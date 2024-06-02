@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boatify</title>
+
+
+    <!-- cdns -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="boatify2.1.css">
+  
+</head>
+<body>
+    <div id="header" class="row">
+        <div class="col-1 logo">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/007/642/164/small/headphone-earphone-headset-for-music-line-pop-art-potrait-logo-colorful-design-with-dark-background-abstract-illustration-vector.jpg"
+                alt="B" style="border-radius: 50%; height: 50px; width: 50px; margin: 5px;">
+        </div>
+        <div class="col-2 text-start PageTitile">
+            <h1 style="font-family: Sofia, sans-serif; font-weight: bolder;">BotyFy</h1>
+        </div>
+
+        <div class="col-5 row ">
+           
+           <div class="col-3 text-end mt-3">About Us</div>
+           <div class="col-2 mt-3 ms-3">Contact</div>
+           
+            <div class="col-4 dropdown text-start mt-2">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#list-item-1">Phones</a></li>
+                  <li><a class="dropdown-item" href="#list-item-2">Earphones</a></li>
+                  <li><a class="dropdown-item" href="#list-item-3">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#list-item-4">Headphones</a></li>
+                </ul>
+              </div>
+
+          
+       
+        </div>
+
+        <div class="col-3 row search mt-3">
+
+            <form class="d-flex" role="search">
+                
+                <input class="form-control me-2 mb-2" type="search" id="searchBar" placeholder="Search" aria-label="Search" >
+              <i class="fa-solid fa-magnifying-glass col-3 mt-2" id="searchIcon"></i> 
+           
+        </div>
+        <div class="col-1 text-center" id="mode">
+            <i class="fa fa-sun mt-3 text-end " style="font-size: 30px;"></i>
+            <!-- <i class="fa-solid fa-moon mt-3 text-end" style="font-size: 30px;"></i> -->
+        </div>
+
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example row p-4" tabindex="0">
+       
+        <div id="list-item-1" class="row">
+            <div class="col-5">
+                <div class="wrapper row">
+                    <div class="typed-out mt-5">I <i class="fa-solid fa-heart" style="color:#00A9FF;"></i> <span id="Typedtext"></span></div>
+                </div>
+                <div class="row ms-3 "  >
+                   <h2>welcome to Boatify</h2>
+                </div>
+                <div class="row ms-4"  >
+                    <button type="button" class="btn btn-primary col-3">View Products</button>
+                    <button type="button" class="btn btn-secondary col-3 ms-4">Reviews</button>
+                 </div>
+            </div>
+            <div class="col-7" id="bouncingEffect">
+                <div class="row justify-content-center">
+
+                    <img src="images/blob.jpeg" class="row" alt="" style="height: 400px; width: auto;">
+                    <div class="row" id="bouncingImages">
+                    <div class="col-3">
+                        <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch720_Primary_image?$categorypdpnav$&fmt=png-alpha" class="mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/samsung-galaxy-a54-5g-removebg-preview.png" class="mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/front-view-blue-wireless-earbuds-260nw-2314405417-removebg-preview.png" class="mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/images-removebg-preview.png" class="mx-auto d-block" alt="...">
+                    </div>
+                </div>
+                </div> 
+            </div>
+        </div>
+        
+        <div id="list-item-2" class="row">
+
+            <!-- <div class="col-1">
+                <div class="icons row ms-1 mt-2">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook "></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div> -->
+            <div class=" row m-1" id="accessoryCard" style="justify-content: space-between;">
+                <div class="col-3 text-center row p-2">
+                    <div class="col-12"><img
+                            src="https://www.cnet.com/a/img/resize/164d867001244a81a743aa47da7c37ced8f2ecc6/hub/2021/01/07/3626616c-83af-4199-a029-76db418938f0/galaxy-z-flip-fold-samsung-product-promo-hoyle-2021.jpg?auto=webp&fit=crop&height=675&width=1200"
+                            alt="img" class="cardImage"></div>
+                    <div class="col-12 accessoryCardName ">phones</div>
+
+                </div>
+                <div class="col-3 text-center row p-2">
+                    <div class="col-12"><img
+                            src="https://specials-images.forbesimg.com/imageserve/6481f8913238a6f23130c0ae/Copy-of-3-Collage-Template--13-/960x0.png?fit=scale"
+                            alt="img" class="cardImage"></div>
+                    <div class="col-12 accessoryCardName">Headphones</div>
+                </div>
+                <div class="col-3 text-center row p-2">
+                    <div class="col-12"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4jXf7p3EsTee5itwEhNG0l2u9mOQdUInJFw&usqp=CAU"
+                            alt="img" class="cardImage"></div>
+                    <div class="col-12 accessoryCardName">Earphones</div>
+                </div>
+                <div class="col-3 text-center row p-2">
+                    <div class="col-12"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7zyhum1Qafnoj5ABcky_-hD02-o5EcXblhA&usqp=CAU"
+                            alt="img" class="cardImage"></div>
+                    <div class="col-12 accessoryCardName">Watches</div>
+                </div>
+               
+            </div>
+        </div>
+        
+        <div id="list-item-3" class="row">
+   
+            
+
+        </div>
+       
+        <div id="list-item-4" class="row">Item 4</div>
+
+      </div>
+
+
+    <!-- row1 -->
+
+
+  
+
+    <!-- row2 -->
+
+
+    <div class="row2">
+
+
+    </div>
+
+    <!-- row3 -->
+
+
+    <div class="row3">
+
+
+    </div>
+
+    <!-- row4 -->
+
+
+    <div class="row4">
+
+
+    </div>
+
+
+
+
+    <script src="boatify2.1.js" defer></script>
+</body>
+</html>
